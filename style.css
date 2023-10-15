@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.scientific {
+    /* margin-top: 20px; */
+    background-color: lightgrey;
+    /* box-shadow: 30px 30px 30px 30px; */
+    height: 750px;
+    width: 400px;
+}
+.solar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    border-radius: 30px;
+    background-color: lightgrey;
+    /* margin-right: 0; */
+    /* right: 0; */
+    /* position: absolute; */
+}
+.charge {
+    background-color: rgb(150, 76, 76);
+    width: 40px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    /* border-right: none; */
+    height: 50px;
+    margin-top: 30px;
+    /* margin-left: 50px; */
+}
+#orange {
+    background-color: orange;
+    /* color: blue; */
+}
+.top {
+    display: flex;
+}
+.casio {
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    margin-top: 30px;
+    /* margin-right: -90px; */
+}
+.afcasio {
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.nat {
+    color: green;
+}
+.bfscreen {
+    display: flex;
+    justify-content: space-between;
+}
+.unscreen {
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+.screen {
+    width: 350px;
+    padding-top: 10px;
+    text-align: right;
+    /* word-break: break-all; */
+    word-wrap: break-word;
+  font-size: 30px;
+    height: 150px;
+    background-color: rgb(209, 236, 209);
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.mcas {
+    margin-left: 7px;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+}
+.curve {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 20px;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    border-right: none;
+}
+.curv {
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-left: 20px;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    border-right: none;
+}
+.name {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+.fcol {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+}
+.scol {
+    display: flex;
+    flex-direction: row;
+}
+#bodl{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#bodr{
+    border-right: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tcol {
+    display: flex;
+    flex-direction: row;
+}
+.col-21 {
+    margin-left: -15px;
+}
+.col-20 {
+  margin-left:-30px;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.scol button {
+   background-color:  black;
+   width: 40px;
+   font-variant: small-caps;
+   color: white;
+   border-radius: 10px;
+   margin-left: 20px;
+   height: 25px;
+}
+
+.tcol button {
+    color: white;
+    font-variant: small-caps;
+    background-color:  black;
+    width: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+    height: 25px;
+ }
+.col-25 {
+    margin-left: 105px;
+}
+.biggy {
+    margin-top: 20px;
+}
+.shift {
+    margin-left: 22px;
+}
+.alpha {
+    margin-left: 20px;
+    color: orangered;
+}
+.biggy {
+    width: 80px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+/* .calc {
+    background-color: black;
+    width: 30px;
+    height: 50px;
+} */
+ button{
+    background-color: cornflowerblue;
+}
+#ko {
+    width: 1px;
+}
+.mode {
+    margin-left: 13px;
+    text-transform: uppercase;
+    
+}
+.on {
+    margin-left: 40px;
+    font-variant: small-caps;
+
+}
+.set {
+    color: green;
+    font-variant: small-caps;
+}
+.number button {
+    background-color: white;
+    margin-left: 18px;
+    width: 50px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 10px 10px gray;
+    border-radius: 30px;
+    /* border-bottom-left-radius: 20px; */
+    /* border-bottom-right-radius: 30px; */
+    height: 43px;
+}

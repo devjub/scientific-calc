@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="scientific">
+        <!-- <div class="calc"> -->
+        <div class="top">
+            <div class="casio">
+            <h2 >CASIO</h2>
+            </div>
+            <div class="solar">
+                
+                <div class="charge" id="bodl"></div>
+                <div class="charge"></div>
+                <div class="charge"></div>
+                <div class="charge" id="bodr"></div>
+            </div>
+        </div>
+        <div class="afcasio">
+            <h4 class="mcas">fx-991es PLUS</h4>
+            <div class="bfscreen">
+            <h4 class="nat">NATURAL-UPAM</h4>
+            <h6 class="unscreen">Two Ways Power</h6>
+            </div>
+        </div>
+        <input type="text" name="screen" id="screen" class="screen" readonly>
+        <!-- <p></p> -->
+        <div class="button">
+        <div class="btn">
+            <div class="fcol">
+                <div class="col">
+                    <h6 class="shift">SHIFT</h6>
+            <button class="curve"></button>
+            </div>
+<div class="col">
+    <h6 class="alpha">ALPHA</h6>
+            <button class="curve"></button>
+            </div>
+            <button class="biggy"></button>
+            <div class="col">
+                <h6  class="mode">Mode <b class="set">Setup</b></h6>
+            <button class="curv"></button>
+            </div>
+            <div class="col">
+                <h6 class="on">ON</h6>
+            <button class="curv"></button>
+            </div>
+            </div>
+    
+        
+        <!-- sec row -->
+        <!-- <div class="button"> -->
+            <div class="scol">
+                <div class="col-2">
+                    <h6 class="shift">SHIFT</h6>
+            <button >CALC</button>
+            </div>
+<div class="col-2">
+    <h6 class="alpha">ALPHA</h6>
+            <button onclick="add('%')">%</button>
+            </div>
+            
+            <div class="col-25">
+                <h6  class="mode">Mode <b class="set">Setup</b></h6>
+            <button>X<sup>-1</sup></button>
+            </div>
+            <div class="col-21">
+                <h6 class="on">ON</h6>
+            <button></button>
+            </div>
+            </div>
+            
+            <!-- tcol -->
+            <div class="tcol">
+                <div class="col-2">
+                    <h6 class="shift">SHIFT</h6>
+            <button >frac</button>
+            </div>
+<div class="col-2">
+    <h6 class="alpha">ALPHA</h6>
+            <button onclick="sqrt()">√</button>
+            </div>
+            <div class="col-2">
+                <h6 class="shift">SHIFT</h6>
+        <button onclick="rp()">x<sup>2</sup></button>
+        </div>
+        <div class="col-2">
+            <h6 class="shift">SHIFT</h6>
+    <button ></button>
+    </div>
+            <div class="col-2">
+                <h6  class="mode">Mode <b class="set">Setup</b></h6>
+            <button onclick="log()" id="log">LOG</button>
+            </div>
+            <div class="col-20">
+                <h6 class="on">in</h6>
+            <button onclick="on()">IN</button>
+            </div>
+        </div>
+        <!-- focol -->
+        <div class="tcol">
+            <div class="col-2">
+                <h6 class="shift">SHIFT</h6>
+        <button >(--)</button>
+        </div>
+<div class="col-2">
+<h6 class="alpha">ALPHA</h6>
+        <button >""""</button>
+        </div>
+        <div class="col-2">
+            <h6 class="shift">SHIFT</h6>
+    <button onclick="hyp()">hyp</button>
+    </div>
+    <div class="col-2">
+        <h6 class="shift">SIN</h6>
+<button onclick="sin()" id="sin" >SIN</button>
+</div>
+        <div class="col-2">
+            <h6  class="mode">COS cos()kk</h6>
+        <button onclick="cos()">COS</button>
+        </div>
+        <div class="col-20">
+            <h6 class="on">TAN</h6>
+        <button onclick="tan()">TAN</button>
+        </div>
+    </div>
+    <!-- ficol -->
+    <div class="tcol">
+        <div class="col-2">
+            <h6 class="shift">SHIFT</h6>
+    <button >RCL</button>
+    </div>
+<div class="col-2">
+<h6 class="alpha">ALPHA</h6>
+    <button >ENG</button>
+    </div>
+    <div class="col-2">
+        <h6 class="shift">SHIFT</h6>
+<button >(</button>
+</div>
+<div class="col-2">
+    <h6 class="shift">SHIFT</h6>
+<button >)</button>
+</div>
+    <div class="col-2">
+        <h6  class="mode">Mode <b class="set">Setup</b></h6>
+    <button onclick="dec()">S=>D</button>
+    </div>
+    <div class="col-20">
+        <h6 class="on">ON</h6>
+    <button>M+</button>
+    </div>
+    </div>
+    <div class="number">
+        <div class="fstrow">
+            <button onclick="add(7)">7</button>
+            <button onclick="add(8)">8</button>
+            <button onclick="add(9)">9</button>
+            <button id="orange" onclick="del()">DEL</button>
+            <button id="orange" onclick="clean()">AC</button>
+        </div>
+        <div class="number">
+            <div class="fstrow">
+                <button onclick="add(4)">4</button>
+                <button onclick="add(5)">5</button>
+                <button onclick="add(6)">6</button>
+                <button onclick="add('*')"> ×</button>
+                <button onclick="add('/')"> ÷</button>
+                
+            </div>
+            <div class="number">
+                <div class="fstrow">
+                    <button onclick="add(1)">1</button>
+                    <button onclick="add(2)">2</button>
+                    <button onclick="add(3)">3</button>
+                    <button onclick="add('+')">+</button>
+                    <button onclick="add('-')">-</button>
+                </div>
+                <div class="number">
+                    <div class="fstrow">
+                        <button onclick="add(0)">0</button>
+                        <button onclick="add('.')">.</button>
+                        <button>10<sup>2</sup></button>
+                        <button>Ans</button>
+                        <button onclick="equal()">=</button>
+                    </div>
+    </div>
+</div>
+        </div>
+    </div>
+    <!-- </div> -->
+    <script src="main.js"></script>
+</body>
+</html>
